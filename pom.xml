@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ntpan</groupId>
+    <artifactId>math-util-se1867</artifactId>
+    <version>69.69</version>
+
+    <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- DAY LA NOI KHAI BAO TEN CAC THU VIEN TA CAN DUNG
+     CAC THU VIEN NAY NAM SAN O MOT NOI, MAVEN LA 1 TOOL DONG VAI TRO
+      QUAN LI CAC THU VIEN TRONG 1 APP JAVA
+      DONG VAI TRO BUILD APP TU .JAVA THANH .WAR .JAR (.DLL)
+       NO TU DI TIM THU VIEN, DOWNLOAD VAO MAY MINH, DUA VAO DU AN CUA TA LUON - IMPORT VAO DU AN-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.8.1.jre11</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.5.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
