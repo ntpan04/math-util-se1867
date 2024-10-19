@@ -1,3 +1,5 @@
+[![NTPAn Math Utility Project (CI included)](https://github.com/ntpan04/math-util-se1867/actions/workflows/ci-script.yml/badge.svg)](https://github.com/ntpan04/math-util-se1867/actions/workflows/ci-script.yml)
+
 # Math Utility (Maven project)
 
 ## Welcome to Math Utility project
