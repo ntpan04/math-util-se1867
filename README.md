@@ -7,4 +7,7 @@
 * A TDD, DDT source code
 * A CI (Continuous Integration) script
 
+## Screen-shots
+![JUnit with Maven](https://github.com/ntpan04/math-util-se1867/blob/main/screenshots/JUnit%20with%20Maven.png)
+
 #### &#169; 2024 ntpa
